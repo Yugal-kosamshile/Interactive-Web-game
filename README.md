@@ -65,5 +65,6 @@ If you have any questions, suggestions, or feedback, feel free to reach out:
 - **GitHub**: [Yugal-kosamshile](https://github.com/Yugal-kosamshile)
 
 ---
-
+## 🎉 Acknowledgments
+Thanks to the amazing open-source community for inspiration and support!
 Enjoy the fun and challenge of **GameOn!** 🎉
