@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Memory Game</h1>
+        <div class="memory-game">
+            <div class="memory-card" data-framework="club">
+                <img class="front-face" src="./images/club.jpg" alt="club" />
+                <img class="back-face" src="./images/que.jpg" alt="Back" />
+            </div>
+            <div class="memory-card" data-framework="club">
+                <img class="front-face" src="./images/club.jpg" alt="club" />
+                <img class="back-face" src="./images/que.jpg" alt="Back" />
+            </div>
+
+            <div class="memory-card" data-framework="diamond">
+                <img class="front-face" src="./images/diamond.jpg" alt="diamond" />
+                <img class="back-face" src="./images/que.jpg" alt="Back" />
+            </div>
+            <div class="memory-card" data-framework="diamond">
+                <img class="front-face" src="./images/diamond.jpg" alt="diamond" />
+                <img class="back-face" src="./images/que.jpg" alt="Back" />
+            </div>
+
+            <div class="memory-card" data-framework="heart">
+                <img class="front-face" src="./images/heart.jpg" alt="heart" />
+                <img class="back-face" src="./images/que.jpg" alt="Back" />
+            </div>
+            <div class="memory-card" data-framework="heart">
+                <img class="front-face" src="./images/heart.jpg" alt="heart" />
+                <img class="back-face" src="./images/que.jpg" alt="Back" />
+            </div>
+
+            <div class="memory-card" data-framework="spade">
+                <img class="front-face" src="./images/spade.jpg" alt="spade" />
+                <img class="back-face" src="./images/que.jpg" alt="Back" />
+            </div>
+            <div class="memory-card" data-framework="spade">
+                <img class="front-face" src="./images/spade.jpg" alt="spade" />
+                <img class="back-face" src="./images/que.jpg" alt="Back" />
+            </div>
+        </div>
+
+        <div class="instructions">
+            <p >
+            <strong>How to Play:</strong>
+            <ul class="list">
+                <li>Flip over two cards at a time to find matching pairs.</li>
+                <li>If the two cards match, they will stay flipped.</li>
+                <li>If the cards don’t match, they will flip back over.</li>
+                <li>Try to match all pairs with as few moves as possible.</li>
+            </ul>
+        </p>
+        </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

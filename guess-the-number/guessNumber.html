@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Number Game</h1>
+        <h4>Guess a number between 1 and 100:</h4>
+        <input type="number" id="guessField" placeholder="Enter your guess">
+        <button onclick="checkGuess()">Submit Guess</button>
+        <p id="guessResult"></p>
+    </div>
+
+    <div class="instructions">
+        <h2>How to Play</h2>
+        <ul>
+            <li>The computer has randomly chosen a number between 1 and 100.</li>
+            <li>Your goal is to guess the number correctly in the fewest attempts possible.</li>
+            <li>Enter your guess in the input box and click "Submit Guess."</li>
+            <li>Feedback will tell you if your guess is too high, too low, or correct.</li>
+            <li>Keep guessing until you find the correct number.</li>
+            <li>Enjoy the challenge and good luck!</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

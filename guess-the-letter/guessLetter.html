@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess a Letter Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess a Letter Game</h1>
+        <div id="wordToGuess">_ _ _ _ _</div>
+        <p>Guess a letter:</p>
+        <input type="text" id="guessInput" maxlength="1">
+        <button onclick="checkLetter()">Guess</button>
+        <p id="guessResult"></p>
+        <p id="attemptsLeft"></p>
+    </div>
+    <div class="instructions">
+        <h2>How to Play</h2>
+        <ul>
+            <li>The game will randomly select a hidden word from a predefined list.</li>
+            <li>Guess the word by typing one letter at a time in the input box.</li>
+            <li>If the letter is in the word, it will appear in the correct position.</li>
+            <li>Each incorrect guess reduces your attempts by 1.</li>
+            <li>You have 8 attempts to guess the word. If you fail, the game ends!</li>
+            <li>Good luck!</li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
