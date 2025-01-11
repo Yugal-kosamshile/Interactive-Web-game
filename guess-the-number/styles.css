@@ -105,3 +105,9 @@ p#guessResult {
     margin-bottom: 10px;
     line-height: 1.5;
 }
+
+.nav-item .nav-link.active {
+    background-color: #7a0000 !important;
+    color: white !important;
+    border-radius: 5px !important;
+  }

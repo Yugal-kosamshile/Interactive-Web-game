@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess a Letter Game</title>
+    <link rel="icon" href="./word-icon.jpeg" type="image">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
 </head>
 <body>
     <div class="container">
+        <header class="d-flex flex-wrap justify-content-between align-items-center py-3 mb-4 border-bottom">
+            <a href="../index.html" class="d-flex align-items-center mb-3 mb-md-0 text-dark text-decoration-none">
+                <img src="../images/logor.png" alt="logo" height="50" class="me-2">
+                <span class="fs-4 text-white">GameOn!</span>
+            </a>
+    
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="../index.html" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="../contact.html" class="nav-link text-white">Contact</a></li>
+                <li class="nav-item"><a href="../game_gallary.html" class="nav-link text-white">Back</a></li>
+            </ul>
+        </header>
+
         <h1>Guess a Letter Game</h1>
         <div id="wordToGuess">_ _ _ _ _</div>
         <p>Guess a letter:</p>
@@ -28,5 +44,7 @@
         </ul>
     </div>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>

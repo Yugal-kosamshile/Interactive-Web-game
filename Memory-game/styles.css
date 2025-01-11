@@ -72,7 +72,7 @@ body {
 }
 .instructions strong {
     font-size: 1.4rem;
-    color: #f82828; 
+    color: #c9bf00; 
     display: block;
     margin-bottom: 5px;
 }
@@ -82,3 +82,8 @@ body {
     display: block;
 }
 
+.nav-item .nav-link.active {
+    background-color: #807900 !important;
+    color: white !important;
+    border-radius: 5px !important;
+  }
