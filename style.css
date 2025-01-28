@@ -1,0 +1,78 @@
+html, body { 
+    margin: 0;
+    overflow:visible;
+    }
+    body {
+    display: flex;
+    flex-direction: column;
+    }
+    .content {
+    flex: 1;
+    height: auto;
+    }
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 1020; 
+        width: 100%;
+        background-color: white;  
+    }
+    
+    footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }
+    
+    /* Purple Theme */
+    .bg-purple {
+    background-color: #6f42c1 !important;
+    }
+    .text-purple {
+    color: #6f42c1 !important;
+    }
+    
+    .btn-game {
+        background-color: #6f42c1;
+        color: white;
+        border: none;
+    }
+    .btn-primary {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+    }
+    .btn-primary:hover {
+    background-color: #5a359e;
+    border-color: #5a359e;
+    }
+    .text-light-purple {
+    color: #d6c1f1 !important;
+    }
+    .nav-pills .nav-link.active {
+    background-color: #6f42c1;
+    }
+    
+    .game-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    }
+    .game-card img {
+    width: 100%;
+    transition: transform 0.3s ease;
+    }
+    .game-card:hover img {
+    transform: scale(1.1);
+    }
+    .game-card .card-body {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    }
+    .game-card .card-body h5 {
+    margin: 0;
+    } 
