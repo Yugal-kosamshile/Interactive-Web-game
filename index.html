@@ -5,199 +5,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GameOn! - Play & Enjoy</title>
-    <link rel="icon" href="./images/logor.png" type="image">
+    <link rel="icon" href="./images/logor.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
-
     <!-- Header Section -->
-    <!-- Sticky Navbar -->
-    <nav class="navbar sticky-top navbar-light bg-light border-bottom">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
         <div class="container">
-            <a href="index.html" class="navbar-brand d-flex align-items-center">
-                <img src="images/logor.png" alt="logo" height="50" class="me-2">
-                <span class="fs-4 text-purple">GameOn!</span>
+            <a href="./index.html" class="navbar-brand d-flex align-items-center">
+                <img src="./images/logor.png" alt="logo" class="me-2" width="40">
+                <span>GameOn!</span>
             </a>
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#about" class="nav-link text-purple">About</a></li>
-                <li class="nav-item"><a href="#game-gallary" class="nav-link text-purple">Games</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link text-purple">Contact</a></li>
+            <ul class="nav nav-pills ms-auto">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#game-gallery" class="nav-link">Games</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Home Section -->
-    <section id="home" class="content bg-light text-center py-5">
+    <section id="home" class="content bg-light">
         <div class="container">
-            <h1 class="display-4 text-purple">Welcome to GameOn!</h1>
+            <h1 class="display-4 text-purple fw-bold">Welcome to GameOn!</h1>
             <p class="lead">Your go-to hub for classic, fun, and engaging web games. Start playing now!</p>
+            <a href="#game-gallery" class="btn btn-game">Explore Games</a>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-5">
+    <section id="about" class="content bg-light">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <div class="text-center">
-                        <span class="text-muted">Our Story</span>
-                        <h2 class="display-5 fw-bold text-purple">About GameOn!</h2>
-                        <p class="lead">
-                            Welcome to <strong>GameOn!</strong>, your one-stop destination for fun, simple, and engaging
-                            web games!
-                        </p>
-                        <p>
-                            We believe in bringing joy to everyone through timeless games that are easy to play and hard
-                            to put down. Whether you’re looking to take a break, challenge your friends, or just relive
-                            nostalgic moments, GameOn! has something for everyone.
-                        </p>
-                        <h2 class="text-center text-purple mb-4">What We Offer:</h2>
-                        <ul class="text-start">
-                            <li><strong>Classic Games:</strong> Enjoy timeless games like Tic-Tac-Toe, Snake, and Memory
-                                Challenge.</li>
-                            <li><strong>Engaging Experiences:</strong> Immerse yourself in interactive and fun gameplay
-                                designed to keep you entertained.</li>
-                            <li><strong>Accessible Anytime:</strong> Play directly in your browser—no downloads, no
-                                hassles, just pure fun!</li>
-                        </ul>
-                        <h2 class="text-center text-purple mb-4">Why Choose GameOn?</h2>
-                        <p>
-                            Our mission is simple: to provide an enjoyable gaming experience for people of all ages,
-                            anywhere, anytime. GameOn! is designed to be lightweight, fast, and accessible across all
-                            devices.
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <h2 class="display-5 text-purple fw-bold">About GameOn!</h2>
+            <p class="lead">
+                At <strong>GameOn!</strong>, we aim to bring joy to everyone through timeless games that are easy to
+                play
+                and hard to put down. Whether you’re looking to relax, challenge your friends, or relive nostalgic
+                moments,
+                GameOn! is here for you.
+            </p>
+            <h2 class="display-5 text-purple ">What We Offer:</h2>
+            <ul class="text-start lead">
+                <li><strong class="bold">Classic Games:</strong> Enjoy timeless games like Tic-Tac-Toe, Snake, and Memory
+                    Challenge.</li>
+                <li><strong class="bold">Engaging Experiences:</strong> Immerse yourself in interactive and fun gameplay
+                    designed to keep you entertained.</li>
+                <li><strong class="bold">Accessible Anytime:</strong> Play directly in your browser—no downloads, no
+                    hassles, just pure fun!</li>
+            </ul>
+            <h2 class="display-5 text-purple ">Why Choose GameOn?</h2>
+            <p class="lead">
+                Our mission is simple: to provide an enjoyable gaming experience for people of all ages,
+                anywhere, anytime. GameOn! is designed to be lightweight, fast, and accessible across all
+                devices.
+            </p>
         </div>
     </section>
 
-    <!-- Gallery Section -->
-    <section id="game-gallary" class="container py-5">
-        <span class="text-muted text-center justify-content-center row">Let's Play</span>
-        <h2 class="display-5 fw-bold text-purple text-center text-purple mb-4">Explore Our Games</h2>
-        <div class="row">
-            <!-- Game 1 -->
-            <div class="col-md-4 mb-4">
-                <div class="card game-card">
-                    <img src="images/tic-tac-toe.png" alt="Tic-Tac-Toe" height="300" width="350">
+    <!-- Games Gallery Section -->
+    <section id="game-gallery" class="container py-5">
+        <h2 class="display-5 text-purple text-center mb-5 fw-bold">Explore Our Games</h2>
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/tic-tac-toe.png" class="card-img-top" alt="Tic-Tac-Toe">
                     <div class="card-body">
-                        <h5>Tic-Tac-Toe</h5>
+                        <h5 class="card-title">Tic-Tac-Toe</h5>
                         <a href="./tic-tac-toe/tic-tac-toe.html" class="btn btn-game">Play Now</a>
                     </div>
                 </div>
             </div>
-            <!-- Game 2 -->
-            <div class="col-md-4 mb-4">
-                <div class="card game-card">
-                    <img src="images/snake.png" alt="Snake Game" height="300" width="350">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/snake.png" class="card-img-top" alt="Snake Game">
                     <div class="card-body">
-                        <h5>Snake Game</h5>
+                        <h5 class="card-title">Snake Game</h5>
                         <a href="./snake-game/snake.html" class="btn btn-game">Play Now</a>
                     </div>
                 </div>
             </div>
-            <!-- Game 3 -->
-            <div class="col-md-4 mb-4">
-                <div class="card game-card">
-                    <img src="images/memoryCard.png" alt="Memory Game" height="300" width="350">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/memoryCard.png" class="card-img-top" alt="Memory Game">
                     <div class="card-body">
-                        <h5>Memory Game</h5>
-                        <a href="./Memory-game/memory.html" class="btn btn-game">Play Now</a>
+                        <h5 class="card-title">Memory Game</h5>
+                        <a href="./memory-game/memory.html" class="btn btn-game">Play Now</a>
                     </div>
                 </div>
             </div>
-            <!-- Game 4 -->
-            <div class="col-md-4 mb-4">
-                <div class="card game-card">
-                    <img src="images/guessLetter.png" alt="Guess a Letter Game" height="300" width="350">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/guessLetter.png" class="card-img-top" alt="Guess a Letter Game" >
                     <div class="card-body">
-                        <h5>Guess a Letter Game</h5>
+                        <h5 class="card-title">Guess a Letter Game</h5>
                         <a href="./guess-the-letter/guessLetter.html" class="btn btn-game">Play Now</a>
                     </div>
                 </div>
             </div>
-            <!-- Game 5 -->
-            <div class="col-md-4 mb-4">
-                <div class="card game-card">
-                    <img src="images/guessNumber.png" alt="Guess a number Game" height="300" width="350">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/guessNumber.png" class="card-img-top" alt="Guess a Letter Game" >
                     <div class="card-body">
-                        <h5>Guess a Number Game</h5>
+                        <h5 class="card-title">Guess a Letter Game</h5>
                         <a href="./guess-the-number/guessNumber.html" class="btn btn-game">Play Now</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Cover Section -->
-    <main class="px-3 text-center bg-light py-5">
-        <h1 class="text-purple">Discover a World of Fun!</h1>
-        <p class="lead">GameOn! is your gateway to simple, beautiful, and timeless web games. Play, enjoy, and relive
-            the nostalgia with every click.</p>
-    </main>
 
-    <!-- Main contact area -->
-    <section id="contact" class="py-5 content">
+    <!-- Contact Section -->
+    <section id="contact" class="content bg-light">
         <div class="container">
-            <div class="row justify-content-center text-center mb-2 mb-lg-4">
-                <div class="col-lg-8 col-xxl-7">
-                    <span class="text-muted">Let's Talk</span>
-                    <h2 class="display-5 fw-bold mb-3 text-purple">Contact Us</h2>
-                    <p class="lead mb-0">If you have any questions, feedback, or need assistance, we’re here to help.
-                        Feel free to reach out to us!</p>
+            <h2 class="display-5 text-purple text-center mb-4 fw-bold">Contact Us</h2>
+            <p class="lead mb-0">If you have any questions, feedback, or need assistance, we’re here to help.
+                Feel free to reach out to us!</p>
+            <form>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
                 </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-10 col-lg-6">
-                    <form>
-                        <div class="row justify-content-center">
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <input class="form-control bg-light" placeholder="Name" type="text" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <input class="form-control bg-light" placeholder="E-Mail" type="email" required>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="mb-3">
-                                    <textarea class="form-control bg-light" placeholder="Your message . . ." rows="4"
-                                        required></textarea>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="d-grid">
-                                    <button class="btn btn-primary" type="submit">Send message</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
                 </div>
-            </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-game w-100">Send Message</button>
+            </form>
         </div>
     </section>
 
     <!-- Footer Section -->
-    <footer class="bg-purple text-light py-3">
-        <div class="container text-center">
-            <p>&copy; 2024 GameOn! All rights reserved by ❤️Yugalk.</p>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="policy.html" class="text-light-purple">Privacy Policy</a></li>
-                <li class="list-inline-item"><a href="license.html" class="text-light-purple">License</a></li>
-                <li class="list-inline-item"><a href="conditions.html" class="text-light-purple">Term & Services</a>
-                </li>
-            </ul>
-        </div>
+    <footer class="footer text-center">
+        <p>&copy; 2025 GameOn! All rights are reserved by ❤️Yugalk.</p>
+        <a href="./policy.html">Privacy Policy</a> |
+        <a href="./license.html">License</a> |
+        <a href="./conditions.html">Terms & Conditions</a>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        integrity="sha384-MrcW6ZMF5VxY78eCSrkhF0f3eR5KpAB6XsA7bMqh74u05n3fdv7Cft0uNHjsaYl"
         crossorigin="anonymous"></script>
 </body>
 
